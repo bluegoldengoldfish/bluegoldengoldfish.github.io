@@ -9,7 +9,7 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Astro v5.13.2" />
-    <title>Sidebars · Bootstrap v5.3</title>
+    <title>Portfolio Edwin B.</title>
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/5.3/examples/sidebars/"
@@ -17,7 +17,7 @@
     <script src="assets/js/color-modes.js"></script>
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
     <meta name="theme-color" content="#712cf9" />
-    <link href="sidebars.css" rel="stylesheet" />
+    <link href="assets/css/sidebars.css" rel="stylesheet" />
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -119,76 +119,7 @@
         ></path>
       </symbol>
     </svg>
-    <div
-      class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"
-    >
-      <button
-        class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-        id="bd-theme"
-        type="button"
-        aria-expanded="false"
-        data-bs-toggle="dropdown"
-        aria-label="Toggle theme (auto)"
-      >
-        <svg class="bi my-1 theme-icon-active" aria-hidden="true">
-          <use href="#circle-half"></use>
-        </svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
-      <ul
-        class="dropdown-menu dropdown-menu-end shadow"
-        aria-labelledby="bd-theme-text"
-      >
-        <li>
-          <button
-            type="button"
-            class="dropdown-item d-flex align-items-center"
-            data-bs-theme-value="light"
-            aria-pressed="false"
-          >
-            <svg class="bi me-2 opacity-50" aria-hidden="true">
-              <use href="#sun-fill"></use>
-            </svg>
-            Light
-            <svg class="bi ms-auto d-none" aria-hidden="true">
-              <use href="#check2"></use>
-            </svg>
-          </button>
-        </li>
-        <li>
-          <button
-            type="button"
-            class="dropdown-item d-flex align-items-center"
-            data-bs-theme-value="dark"
-            aria-pressed="false"
-          >
-            <svg class="bi me-2 opacity-50" aria-hidden="true">
-              <use href="#moon-stars-fill"></use>
-            </svg>
-            Dark
-            <svg class="bi ms-auto d-none" aria-hidden="true">
-              <use href="#check2"></use>
-            </svg>
-          </button>
-        </li>
-        <li>
-          <button
-            type="button"
-            class="dropdown-item d-flex align-items-center active"
-            data-bs-theme-value="auto"
-            aria-pressed="true"
-          >
-            <svg class="bi me-2 opacity-50" aria-hidden="true">
-              <use href="#circle-half"></use>
-            </svg>
-            Auto
-            <svg class="bi ms-auto d-none" aria-hidden="true">
-              <use href="#check2"></use>
-            </svg>
-          </button>
-        </li>
-      </ul>
-    </div>
+
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="bootstrap" viewBox="0 0 118 94">
         <title>Bootstrap</title>
@@ -231,7 +162,6 @@
       </symbol>
     </svg>
     <main class="d-flex flex-nowrap">
-      <h1 class="visually-hidden">Sidebars examples</h1>
       <div
         class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark"
         style="width: 280px"
@@ -248,25 +178,18 @@
           >
             <use xlink:href="#bootstrap"></use>
           </svg>
-          <span class="fs-4">Sidebar</span>
+          <span class="fs-4" >Edwin B.</span>
         </a>
         <hr />
         <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item">
             <a href="#" class="nav-link active" aria-current="page">
-              <svg
-                class="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
+              <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true" >
                 <use xlink:href="#home"></use>
-              </svg>
-              Home
-            </a>
+              </svg>About Me</a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="#" class="nav-link text-white" hidden>
               <svg
                 class="bi pe-none me-2"
                 width="16"
@@ -275,11 +198,11 @@
               >
                 <use xlink:href="#speedometer2"></use>
               </svg>
-              Dashboard
+              Relevant Projects
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="#" class="nav-link text-white" hidden>
               <svg
                 class="bi pe-none me-2"
                 width="16"
@@ -288,11 +211,11 @@
               >
                 <use xlink:href="#table"></use>
               </svg>
-              Orders
+              Implementation Diagrams
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="#" class="nav-link text-white" hidden>
               <svg
                 class="bi pe-none me-2"
                 width="16"
@@ -301,11 +224,11 @@
               >
                 <use xlink:href="#grid"></use>
               </svg>
-              Products
+              Code Samples
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link text-white">
+            <a href="#" class="nav-link text-white" hidden>
               <svg
                 class="bi pe-none me-2"
                 width="16"
@@ -314,155 +237,112 @@
               >
                 <use xlink:href="#people-circle"></use>
               </svg>
-              Customers
+              Badges and Certifications
             </a>
           </li>
         </ul>
         <hr />
-        <div class="dropdown">
-          <a
-            href="#"
-            class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <img
-              src="https://github.com/mdo.png"
-              alt=""
-              width="32"
-              height="32"
-              class="rounded-circle me-2"
-            />
-            <strong>mdo</strong>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none" hidden>Contact</a>
       </div>
       <div class="b-example-divider b-example-vr"></div>
-      <div
-        class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary"
-        style="width: 280px"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <svg
-            class="bi pe-none me-2"
-            width="40"
-            height="32"
-            aria-hidden="true"
-          >
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <span class="fs-4">Sidebar</span>
-        </a>
-        <hr />
-        <ul class="nav nav-pills flex-column mb-auto">
-          <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">
-              <svg
-                class="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlink:href="#home"></use>
-              </svg>
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#" class="nav-link link-body-emphasis">
-              <svg
-                class="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlink:href="#speedometer2"></use>
-              </svg>
-              Dashboard
-            </a>
-          </li>
-          <li>
-            <a href="#" class="nav-link link-body-emphasis">
-              <svg
-                class="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlink:href="#table"></use>
-              </svg>
-              Orders
-            </a>
-          </li>
-          <li>
-            <a href="#" class="nav-link link-body-emphasis">
-              <svg
-                class="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlink:href="#grid"></use>
-              </svg>
-              Products
-            </a>
-          </li>
-          <li>
-            <a href="#" class="nav-link link-body-emphasis">
-              <svg
-                class="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlink:href="#people-circle"></use>
-              </svg>
-              Customers
-            </a>
-          </li>
-        </ul>
-        <hr />
-        <div class="dropdown">
-          <a
-            href="#"
-            class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <img
-              src="https://github.com/mdo.png"
-              alt=""
-              width="32"
-              height="32"
-              class="rounded-circle me-2"
-            />
-            <strong>mdo</strong>
-          </a>
-          <ul class="dropdown-menu text-small shadow">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="b-example-divider b-example-vr"></div>
-      <div>Under construction, come back later</div>
+
+      <div class="container-fluid gx-100 ">
+        <div style="padding-top: 20px;"></div>
+        
+        <div class="card mb-3" style="max-width: 910px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="assets/img/avatar.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text">My name is Edwin, I am a solutions consultant expert on automtaion integrations and AI. 
+                  I started coding when I was 14 (that was some time ago) I have worked in roles as an Analyst, Developer, Solutions Architect and as Support Engineer
+                , this space is meant to get to know about a bit more about myself and how can we build great solutions together.</p>
+                <p class="card-text">Besides just coding I am a proud cat owner, passionate for music, barista and a photography enthusiast.</p>
+                <p class="card-text">Culturally, I thrive in open and diverse environments where the background and unique qualities of each individual are both respected and celebrated.</p>
+                <p>I guide myself by these core values:
+                  <ul>
+                    <li><strong>Authenticity: </strong>Be proud of myself, my background and my beliefs.</li>
+                    <li><strong>Accountability: </strong>Take ownership of my tasks, responsibility of my actions and learn from my mistakes.</li>
+                    <li><strong>Respect: </strong>Value my personal and professional relationships.</li>
+                    <li><strong>Boldness: </strong>Dare to innovate, fail and retry.</li>
+                    <li><strong>Self-Improvement: </strong>Seek knowledge, reflect, give and acknowledge feedback.</li>
+                  </ul>
+                </p>
+                <p class="card-text"><small class="text-body-secondary">Thanks for reading, Edwin B.</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Core Technical Skills
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><Strong>Workflow Automation: </Strong> n8n, UiPath, Make, Power Platform</li>
+                      <li class="list-group-item"><Strong>Programming Languages: </Strong> Python, Java, C#</li>
+                      <li class="list-group-item"><Strong>Cloud: </Strong> AWS, Azure</li>
+                      <li class="list-group-item"><Strong>Containers: </Strong> Docker</li>
+                      <li class="list-group-item"><Strong>DevOps: </Strong> CI/CD, Git, Test management</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Other technical Skills - Data
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><Strong>Databases: </Strong> SQL Server, MySQL, Mongo, DynamoDB</li>
+                      <li class="list-group-item"><Strong>Data Visualization: </Strong> Power BI, Tableau, D3</li>
+                      <li class="list-group-item"><Strong>ETL/ELT: </Strong>Airflow, SSIS, Spark</li>
+                      <li class="list-group-item"><Strong>Messaging and Streamming: </Strong>RabbitMQ, Kafka</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Other Skills - Concepts, methodologies and soft skills
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><Strong>Agile frameworks: </Strong> Scrum, Kanban</li>
+                      <li class="list-group-item"><Strong>Project management: </Strong>Backlog refinement, Escalation management, Stakeholder Management</li>
+                      <li class="list-group-item"><Strong>Client facing roles: </Strong>Consulting, Customer Experience, Technical Support, B2B, B2C</li>
+                      <li class="list-group-item"><Strong>Software Development Cycle: </Strong>Architecture, Development, Implementation, Troubleshooting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div><!--accordion-->
+
+            <div class="col-md-12">
+              
+            </div>
+          </div>
+        </div><!--card-->
+
+      </div><!--container-->
 
     </main>
     <script
-      src="../assets/dist/js/bootstrap.bundle.min.js"
+      src="assets/dist/js/bootstrap.bundle.min.js"
       class="astro-vvvwv3sm"
     ></script>
     <script src="sidebars.js" class="astro-vvvwv3sm"></script>
